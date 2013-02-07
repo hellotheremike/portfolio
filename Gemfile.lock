@@ -241,6 +241,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   fog
+  haml
   haml-rails
   heroku
   hpricot
