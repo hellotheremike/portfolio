@@ -9,10 +9,10 @@
 	max-width: 950px;
 	width: auto;
 	margin: 0 auto;
-
-	header#header
+	header
 	{
 		position: relative;
+		padding:10px;
 		border-bottom: 1px solid $border_color;
 	}
 	#body
@@ -20,7 +20,7 @@
 		position: relative;
 		padding-bottom:60px;
 	}
-	footer#footer
+	footer
 	{
 		position: relative;
 		position:absolute;
