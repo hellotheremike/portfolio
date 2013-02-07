@@ -1,0 +1,15 @@
+!!!
+%html.no-js{:lang => ::I18n.locale}
+  - site_bar = render('/refinery/site_bar', :head => true)
+  = render '/refinery/head'
+  %body
+    = site_bar
+    = render '/refinery/ie6check' if request.env['HTTP_USER_AGENT'] =~ /MSIE/
+    #main
+      %header#header
+        = render '/refinery/header'
+      #body
+        = yield
+      %footer#footer
+        = render '/refinery/footer'
+    = render '/refinery/javascripts'
