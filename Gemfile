@@ -54,6 +54,8 @@ gem 'refinerycms-i18n', '~> 2.0.0'
 #  gem 'refinerycms-search', '~> 2.0.0'
 #  gem 'refinerycms-page-images', '~> 2.0.0'
 
+gem 'thin'
+
 # The Heroku gem allows you to interface with Heroku's API
 gem 'heroku'
 
