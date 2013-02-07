@@ -1,0 +1,26 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans|Inconsolata);
+@import "varaibles";
+
+html,body
+{
+	margin:0;
+	padding:0;
+	height:100%;
+	font-family: "Droid Sans";
+	color: $general_text_color;
+}
+
+a
+{
+	text-decoration: none;
+	color: $general_text_color;
+	&:hover
+	{
+		color: darken($general_text_color, 5%);
+	}
+
+	&:active
+	{
+		color: darken($general_text_color, 100%);
+	}
+}

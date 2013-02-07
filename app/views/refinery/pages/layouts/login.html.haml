@@ -1,0 +1,13 @@
+!!!
+= render '/refinery/html_tag'
+= render '/refinery/admin/head'
+%body{:class => "login #{I18n.locale}"}
+  #tooltip_container
+  %header
+    %h1= yield :header
+  #page_container
+    #page
+      #content.clearfix
+        #flash_container
+          = render '/refinery/message'
+        = yield
